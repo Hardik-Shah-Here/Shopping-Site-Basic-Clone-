@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+
+:root{
+    --main-bg-color: #c01fd4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header - Navbar */
+header{
+    background-color: var(--main-bg-color);
+}
+
+nav{
+    display: flex;
+}
+
+nav .logo img{
+    width: 93px;
+    height: 30px;
+    margin: 14px 19px 0 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 4px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: var(--main-bg-color);
+    border-radius: 7px;
+}
+
+nav .search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 28px;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin: 0 0 0 43px;
+    padding: 0.5px 26px 0.5px 5px;
+}
+
+.search .searchIcon{
+    position: relative;
+    right: 23px;
+}
+
+.searchIcon:hover{
+    cursor: pointer;
+}
+
+/* Main Container */
+.container{
+    min-height: calc(100vh - 6vh - 7vh);
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .shopping-main{
+    height: 40vh;
+    width: 65vw;
+    margin: 12px auto;
+}
+
+/* Items */
+.card{
+    width: 94vw;
+    margin: auto;
+}
+
+.card-container{
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item{
+    width: 14vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.card-item .store-item{
+    height: 25vh;
+    width: 14vw;
+    margin: auto;
+}
+
+/* Footer */
+footer{
+    height: 6vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}

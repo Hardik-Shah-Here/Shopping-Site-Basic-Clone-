@@ -1,0 +1,53 @@
+@media screen and (max-width: 974px){
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    nav .search{
+        justify-content: center;
+    }
+
+    nav .search input{
+        width: 45vw;
+        margin: 14px 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    nav .search input{
+        width: 57vw;
+    }
+
+    .slider .shopping-main{
+        width: 80vw;
+    }
+
+    .card-item{
+        width: 35vw;;
+    }
+
+    .card-item .store-item{
+        height: 34vh;
+        width: 37vw;
+    }
+}
+
+@media screen and (max-width: 325px){
+    
+    footer{
+        height: 9vh;
+        text-align: center;
+        padding: 6px 0 0 0;
+    }
+}
